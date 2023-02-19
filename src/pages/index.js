@@ -14,7 +14,7 @@ export default function Home () {
 
   useEffect(() => {
     dispatch(getingMovieDatathroughApifunction())
-  }, [])
+  }, [dispatch])
 
 
   console.log("moviesssssssssssss",moviesData)

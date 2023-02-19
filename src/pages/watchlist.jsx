@@ -1,7 +1,7 @@
 import { getMoviesDataFromApiWishList, deleteDatafromApi } from '@/redux/movies/movies.api'
 import React, { useEffect, useState } from 'react'
 
-const watchlist = () => {
+const Watchlist = () => {
 
     const [wishList, setWishList] = useState([])
 
@@ -39,4 +39,4 @@ const watchlist = () => {
     )
 }
 
-export default watchlist
+export default Watchlist
